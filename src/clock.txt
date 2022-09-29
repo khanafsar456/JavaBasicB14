@@ -1,0 +1,193 @@
+can you share your code
+Yusuf Engin Cevik Nutley, NJ — Today at 8:20 AM
+for (int z = 0; z <= 2; z++) {
+            for (int x = 0; x <= 9; x++) { if (z==2 && x>3) {break;}
+                for (int c = 0; c <= 5; c++) {
+                    for (int v = 0; v <= 9; v++) {
+
+                        System.out.println("it's " + z + x + ":" + c + v + " o'clock");
+                    }
+                }
+            }
+        }
+    }
+
+}
+Athira Janardanan(Ottawa,Canada) — Today at 8:20 AM
+System.out.println("Digital clock");
+            for(int j=0;j<=9;j++)
+            {
+                for(int k=0;k<=5;k++)
+                {
+                    for(int l=0;l<=9;l++)
+                    {
+                        System.out.println("0"+j+":"+k+l);
+                    }
+                }
+            }
+
+        for(int hour=10;hour<=23;hour++)
+        {
+
+            for(int minute=0;minute<=59;minute++)
+            {
+
+    if(minute>9)
+    {
+        System.out.println(hour + ":" +minute);
+    }
+    else if(minute<9)
+            {
+        System.out.println(hour + ":" +"0"+minute);
+            }
+
+
+            }
+        }
+Birsel Zengin Odessa/Tx — Today at 8:20 AM
+i like this way
+estefani alvares(Alexandria, VA) — Today at 8:20 AM
+public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+        for (int hourone=0; hourone<3; hourone++) {
+
+            for (int hourtwo=0; hourtwo<=9; hourtwo++) {
+
+                for(int minone=0; minone<=5; minone++) {
+
+                    for(int mintwo=0; mintwo<=9; mintwo++) {
+
+                        if(hourone <=1 || hourtwo <4)
+                            System.out.println((hourone) + ""+ (hourtwo) + ":" + (minone)+ mintwo);
+                    }
+                }
+            }
+        }
+    }
+
+}
+this one?
+aLi iLhan(odessa,tx) — Today at 8:20 AM
+for(int h=0; h<=2; h++) {
+
+            for(int m=0; m<=9; m++){
+
+              for(int a=0; a<=5; a++) {
+                for(int b=0; b<=9; b++) {
+                   if(h!=2 ||(h==2 && m<=3) ) {
+                      System.out.println("The time is "+(h) + (m) +":"+ (a) + (b));
+            }
+         }
+         }
+        System.out.println("***");
+      }
+    }
+Alam Kalani (Ashburn, VA) — Today at 8:20 AM
+public class Homework1 {
+
+    public static void main(String[] args) {
+        //Create a digital clock using nested loops
+        //if you can, try to have a clock that would show 2 digits for hour and 2 digits for minutes.
+
+        for (int a=0; a<=2; a++ ) {
+            for (int b=0; b<=9; b++) {
+                if(a==2 && (b>=4 && b<=9)) {
+                    continue;
+                }
+                for (int c=0; c<=5; c++) {
+                    for (int d=0; d<=9; d++) {
+                        System.out.println(a+""+b+":"+c+""+d);
+                    }
+                }
+            }
+        }
+
+    }
+}
+Serhii Peleshchak (Ottawa) — Today at 8:20 AM
+for(int i=0;i<3;i++) {
+        for(int j=0;j<10;j++) {
+            if(i>1&&j>3) {
+                break;
+            }else {
+            for(int x=0;x<6;x++) {
+                for(int y=0;y<10;y++) {
+                    System.out.println(i+""+j+":"+x+y);
+                }
+                }
+            }
+        }
+    }
+nergis_saidwali(istanbul) — Today at 8:20 AM
+for (int h1 = 0; h1 <= 2; h1++) {
+                for (int h2 = 0; h2 <= 9; h2++) {
+                    if (h1 == 2 && h2 == 4) {
+                        break;
+                    }
+                    for (int m1 = 0; m1 <= 5; m1++) {
+                        for (int m2 = 0; m2 <= 9; m2++) {
+                            System.out.println(h1+""+h2 + ":" + m1+""+m2);
+                        }
+                    }
+                }
+            }
+Yusuf Engin Cevik Nutley, NJ — Today at 8:20 AM
+for (int z = 0; z <= 2; z++) {
+            for (int x = 0; x <= 9; x++) { if (z==2 && x>3) {break;}
+                for (int c = 0; c <= 5; c++) {
+                    for (int v = 0; v <= 9; v++) {
+
+                        System.out.println("it's " + z + x + ":" + c + v + " o'clock");
+                    }
+                }
+            }
+        }
+    }
+
+}
+Birsel Zengin Odessa/Tx — Today at 8:21 AM
+we do not seconds  for this one
+need
+Nesrin (Stephens city, VA) — Today at 8:22 AM
+for (int hr1= 0; hr1<=2; hr1++) {
+        for(int hr2=0; hr2<=9; hr2++) {
+            if(hr1==2&&hr2==4) {
+                break;
+                }
+            for(int m1=0; m1<=5; m1++) {
+                for(int m2=0; m2<=9; m2++) {
+
+                    System.out.println(hr1 +""+ hr2 +":"+ m1+""+m2);
+                }
+
+            }
+        }
+        }
+Sergey (Chicago,IL) — Today at 8:22 AM
+for(int i=0; i<=23; i++) {
+
+            for(int j=0; j<=5; j++)  {
+                 for(int y=0; y<=9; y++) { 
+
+                     System.out.println(i+":"+j+y); } 
+
+            }
+            }}}
+Dusan Mijatovic (Edgartown, MA) — Today at 8:22 AM
+can you do it from scratch? Your way
+Nesrin (Stephens city, VA) — Today at 8:22 AM
+for (int hr1= 0; hr1<=2; hr1++) {
+        for(int hr2=0; hr2<=9; hr2++) {
+            if(hr1==2&&hr2==4) {
+                break;
+                }
+            for(int m1=0; m1<=5; m1++) {
+                for(int m2=0; m2<=9; m2++) {
+
+                    System.out.println(hr1 +""+ hr2 +":"+ m1+""+m2);
+                }
+
+            }
+        }
+        }
